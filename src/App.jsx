@@ -1,10 +1,11 @@
 import "./App.css";
-import UseLayoutHook from "./hooks/UseLayoutHook";
+
+import UseTransitionHook from "./hooks/UseTransitionHook";
 
 function App() {
   return (
     <>
-      <UseLayoutHook />
+      <UseTransitionHook />
     </>
   );
 }
